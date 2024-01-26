@@ -1,4 +1,4 @@
-﻿using System;
+c﻿using System;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -8,8 +8,8 @@ namespace Decyption
     {
         static void Main(string[] args)
         {
-            string inputFile = @"C:\FileToEncrypt.txt";
-            string outputFile = @"C:\EncryptedOutputFile.txt";
+            string inputFile = @"C:\EncryptedFile.txt";
+            string outputFile = @"C:\DecryptedFile.txt";
             string password = "YourAESEncryptionPassword";
 
             FileDecrypt(inputFile, outputFile, password);
